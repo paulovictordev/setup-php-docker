@@ -24,8 +24,8 @@
                     <td><?= $aluno['nome'] ?></td>
                     <td><?= $aluno['email'] ?></td>
                     <td>
-                        <a href="#" class="btn btn-warning">Editar</a>
-                        <a href="#" class="btn btn-danger">Excluir</a>
+                        <a href="<?= "/usuarios/editar?id={$aluno['id']}" ?>" class="btn btn-warning">Editar</a>
+                        <a href="<?= "/usuarios/excluir?id={$aluno['id']}" ?>" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>
             <?php endforeach;?>

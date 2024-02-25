@@ -7,4 +7,4 @@
 
     <title>Document</title>
 </head>
-<body class="container">
+<body class="container" style="width: 100%;">
